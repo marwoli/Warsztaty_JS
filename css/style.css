@@ -47,7 +47,7 @@ nav {
 }
 
 .dropdown {
-  display: block;
+  display: none;
   background-color: #fff;
   border-radius: 0 .0 .5rem .5rem;
   position: absolute;
@@ -129,6 +129,10 @@ nav {
   font-size: 1.5rem;
   color: #424343;
   padding: 1rem 3rem;
+}
+
+.more {
+  display: none;
 }
 
 .circle {
