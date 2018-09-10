@@ -10,6 +10,10 @@ document.addEventListener('DOMContentLoaded', function() {// tutaj będziemy umi
     menuItem.addEventListener('mouseout', function() {
         dropdown.style.display = 'none';
     });
+    var navbar = document.querySelector(".navbar-fixed-top");
+    window.addEventListener('scroll', function() {
+        navbar.style.borderBottom = '1px solid #7f7f7f';
+    });
     var buttons = document.querySelectorAll(".read-more");
 
     function showHide() {
