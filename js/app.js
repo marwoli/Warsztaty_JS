@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', function() {// tutaj będziemy umi
     console.log(menuItem.style);
    const dropdown = document.querySelector(".dropdown");
     menuItem.addEventListener('mouseover', function() {
-        console.log('jakis tekst');
         dropdown.style.display = 'block';
 
     });
